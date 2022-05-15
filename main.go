@@ -3,10 +3,10 @@ package main
 import (
 	"context"
 	"errors"
-	"ginStudy/service"
 	"github.com/gin-gonic/gin"
 	"log"
 	"net/http"
+	"nio-gin/service"
 	"os"
 	"os/signal"
 	"syscall"
@@ -23,9 +23,6 @@ func main() {
 	// 优雅关闭（go开启监听，监视关闭时候的信号，再进行shotdown）
 	StartWithGracefulShowDown(engine)
 }
-
-
-
 
 func StartWithGracefulShowDown(engine *gin.Engine) {
 	// 或者使用http启动
@@ -61,4 +58,3 @@ func StartWithGracefulShowDown(engine *gin.Engine) {
 
 	log.Println("Server exiting!")
 }
-
