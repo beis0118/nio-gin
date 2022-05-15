@@ -1,4 +1,4 @@
-module ginStudy
+module nio-gin
 
 go 1.18
 
