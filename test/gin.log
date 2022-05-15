@@ -1,0 +1,17 @@
+[GIN-debug] GET    /panic                    --> ginStudy/Handler.PanicHandler (5 handlers)
+[GIN-debug] GET    /ping                     --> ginStudy/Handler.PingHandler (5 handlers)
+[GIN-debug] GET    /para                     --> ginStudy/Handler.ParaHandler (5 handlers)
+[GIN-debug] POST   /form                     --> ginStudy/Handler.PingHandler (6 handlers)
+[GIN-debug] GET    /test/para                --> ginStudy/Handler.ParaHandler (6 handlers)
+[GIN-debug] GET    /test/v1/                 --> ginStudy/Handler.PingHandler (7 handlers)
+[GIN-debug] POST   /bind/json                --> ginStudy/Handler.BindJsonHandler (5 handlers)
+[GIN-debug] POST   /bind/must/json           --> ginStudy/Handler.BindMustJsonHandler (5 handlers)
+[GIN-debug] Loaded HTML Templates (2): 
+	- 
+	- index.tmpl
+
+[GIN-debug] GET    /                         --> ginStudy/Handler.IndexHandler (5 handlers)
+[GIN-debug] GET    /redirect                 --> ginStudy/service.SetEngine.func1 (5 handlers)
+[GIN-debug] GET    /long_async               --> ginStudy/service.SetEngine.func2 (5 handlers)
+[GIN-debug] GET    /long_sync                --> ginStudy/service.SetEngine.func3 (5 handlers)
+[GIN-debug] GET    /cookie                   --> ginStudy/Handler.CookieHandler (5 handlers)
